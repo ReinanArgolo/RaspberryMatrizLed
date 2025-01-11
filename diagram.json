@@ -1,0 +1,24 @@
+{
+    "version": 1,
+    "author": "Reinan Lopes Argolo",
+    "editor": "wokwi",
+    "parts": [
+      { "type": "wokwi-pi-pico", "id": "pico", "top": 140.85, "left": 22.8, "attrs": {} },
+      {
+        "type": "wokwi-neopixel-matrix",
+        "id": "neopixels",
+        "top": 30.6,
+        "left": -173.34,
+        "attrs": { "rows": "5", "cols": "5", "matrixLayout": "serpentine" }
+      }
+    ],
+    "connections": [
+      [ "pico:GP7", "led_matrix:din", "green", [ "h0" ] ],
+      [ "pico:3V3", "led_matrix:VCC", "red", [ "h0" ] ],
+      [ "pico:GND", "led_matrix:GND", "black", [ "h0" ] ],
+      [ "neopixels:DIN", "pico:GP7", "green", [ "v0" ] ],
+      [ "neopixels:VCC", "pico:VBUS", "red", [ "v0" ] ],
+      [ "neopixels:GND", "pico:GND.8", "black", [ "v0" ] ]
+    ],
+    "dependencies": {}
+  }

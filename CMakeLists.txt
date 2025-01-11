@@ -46,17 +46,13 @@ pico_enable_stdio_usb(MatrizDeLeds 1)
 
 # Add the standard library to the build
 target_link_libraries(MatrizDeLeds
-        pico_stdlib)
+        pico_stdlib
+        hardware_pio)
 
 # Add the standard include files to the build
 target_include_directories(MatrizDeLeds PRIVATE
   ${CMAKE_CURRENT_LIST_DIR}
 )
-
-# Add any user requested libraries
-target_link_libraries(MatrizDeLeds 
-        
-        )
 
 pico_add_extra_outputs(MatrizDeLeds)
 

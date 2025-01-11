@@ -174,3 +174,7 @@
 869	2449	1736555636228706984	CMakeFiles/MatrizDeLeds.dir/home/reinanlinux/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.o	8701d61bb3d3b322
 1697	2523	1736555637056711333	CMakeFiles/MatrizDeLeds.dir/home/reinanlinux/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pio/pio.c.o	3a838212f87c0242
 2524	2679	1736555637883715678	MatrizDeLeds.elf	adb3c32b9dc0886
+12	240	1736558036307383272	CMakeFiles/MatrizDeLeds.dir/MatrizDeLeds.c.o	92d436a00306db64
+240	402	1736558036534384475	MatrizDeLeds.elf	adb3c32b9dc0886
+11	220	1736558297644768388	CMakeFiles/MatrizDeLeds.dir/MatrizDeLeds.c.o	92d436a00306db64
+220	390	1736558297853769497	MatrizDeLeds.elf	adb3c32b9dc0886
